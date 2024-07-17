@@ -38,10 +38,10 @@ public class JDBCRunner {
             getSELECT(connection); System.out.println("Общий SELEСT  по фамилии BENETSKAYA если есть"); //
             getDELETEALL(connection); System.out.println("Удалили всех записи  KATYA BENETSKAYA если есть");
             getSELECT(connection);System.out.println("Общий SELEСT  по фамилии BENETSKAYA");
-            getINSERTINTO12(connection);System.out.println("Добавили KATYA 12 yes");
-            getINSERTINTO15(connection);System.out.println("Добавили KATYA 15 yes");
-            getINSERTINTO20(connection);System.out.println("Добавили KATYA 20 yes");
-            getINSERTINTO15(connection);System.out.println("Добавили KATYA 15 yes");
+            getINSERTINTO12(connection);System.out.println("Добавили KATYA 12 years");
+            getINSERTINTO15(connection);System.out.println("Добавили KATYA 15 years");
+            getINSERTINTO20(connection);System.out.println("Добавили KATYA 20 years");
+            getINSERTINTO15(connection);System.out.println("Добавили KATYA 15 years");
             getSELECT(connection);System.out.println("Общий SELEСT  по фамилии BENETSKAYA");
             getUPDATE(connection); System.out.println(" Изменили возраст BENETSKAYA с 20-ти на 9 ");
             getSELECT(connection);System.out.println("Общий SELEСT  по фамилии BENETSKAYA");
